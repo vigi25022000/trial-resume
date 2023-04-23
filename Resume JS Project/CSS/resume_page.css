@@ -1,0 +1,106 @@
+.resume-container {
+  margin: 10px;
+  box-shadow: 0 0 10px rgb(80, 79, 79);
+}
+
+#top-heading{
+  
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #3c00a0;
+  position: relative;
+  align-self: center;
+  text-align: center;
+  align-items: center;
+}
+
+#top-heading::after{
+  content: '';
+  width: 40px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #3c00a0;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#search-bar{
+  background: #eaeaea;
+  width: 50%;
+  margin: 15px 0;
+  border: 0.5px solid gray;
+  border-radius: 50px;
+  padding: 18px 15px;
+}
+#search-bar:hover{
+  background: #ffffff;
+  transition: 0.5s;
+}
+.resume-header {
+  background-color: lightblue;
+  text-align: center;
+  background-color:li;
+}
+
+#name {
+  padding-top: 50px;
+  margin: 0;
+}
+.appliedFor {
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+
+.resume-columns {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  padding: 10px;
+  grid-gap: 50px;
+}
+
+.col-1 {
+  background-color: lightpink;
+  padding: 10px;
+}
+
+.col-1-heading {
+  background-color: lightgray;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: right;
+}
+#search-result-area {
+  text-align: center;
+}
+#search-bar-area label{
+  display: flex;
+}
+#search-bar-area label i{
+  margin-left: 15px;
+  color: #999;
+}
+
+#search-results {
+  list-style-type: none;
+}
+
+.search-bar-area {
+  text-align: center;
+  margin: auto;
+}
+
+#searchbar {
+  width: 400px;
+}
+
+.resume-container {
+  border: 2px solid black;
+}
+
+.resume-display-area {
+  display: inline;
+}

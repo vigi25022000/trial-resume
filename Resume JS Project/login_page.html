@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login </title>
+    <link rel="stylesheet" type="text/css" href="./CSS/login_page.css">
+</head>
+
+<body onload="disableBack()">
+    <div class="container">
+        <h1 class="heading">User Login </h1>
+        <form class="login_form" name="form">
+            <div id="error">Wrong username or password</div>
+            <div class="label">Username</div>
+            <input type="text" id="username" name="username" placeholder="User Name" required>
+            <div class="label label2">Password</div>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="./JavaScript/login_page.js"></script>
+</body>
+</html>
